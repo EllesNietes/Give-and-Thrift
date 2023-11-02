@@ -89,6 +89,7 @@ p {
     margin-top: 6%;
 }
 
+
 /* hieronder is de 1e webpagina*/
 main {
     margin-bottom: 30%;
@@ -153,10 +154,14 @@ main {
 
 /* hieronder is de 3e webpagina*/
 
-.knop-2 {
+
+  
+
+  .knop-2 p {
+    margin: 0 2em;
+    padding: 2% 0;
     border-radius: 1em;
     background-color: #0c4022;
-    margin: 0 4em;
   }
 
 /* hieronder is de 4e webpagina*/
