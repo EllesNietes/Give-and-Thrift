@@ -1,0 +1,197 @@
+
+header {
+    width: 100%;
+    background-color: #0c4022;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    padding: 1%;
+}
+
+header img {
+    max-width: 60%;
+    margin-left: 23%;
+}
+
+
+nav {
+    z-index: 1;
+    background-color: #080b0d;
+    padding: 0%;   
+    position: fixed; 
+    bottom: 0%;
+    width: 100%; 
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    display: block;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+}
+
+ul li {
+    display: flex;
+    flex-direction: row;
+    max-width: fit-content;
+    text-align: -webkit-center;
+    }
+
+ul img {
+    display: flex;
+    flex-direction: row;
+    max-width: 45%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+*{
+    color: #dfe9f2;
+  }
+
+body {
+    background: #177351;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+h2 {
+    text-align: center;
+    padding: 2% 0;
+}
+
+h3 {
+    text-align: center;
+    padding: 1% 0;
+    margin: 1%;
+}
+
+h4 {
+    text-align: center;
+}
+
+.rechthoek h3 {
+    padding: 0;
+}
+
+p {
+    padding: 0% 10%;
+    text-align: center;
+    margin-bottom: 8%;
+    margin-top: 6%;
+}
+
+/* hieronder is de 1e webpagina*/
+main {
+    margin-bottom: 30%;
+}
+
+
+.rondje img {
+    width: 15%;
+}
+
+.container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.25em 0;
+    margin: auto;
+    flex-direction: row;
+    width: 70%;
+  }
+
+  .knop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+.rechthoek {
+    display: flex;
+    flex-direction: row;
+    border-radius: 1em;
+    background-color: #0c4022;
+    justify-content: center;
+    margin: 2em;
+  }
+
+  .rondje {
+    display: flex;
+    flex-direction: row;
+    background-color: #0c4022;
+    justify-content: center;
+    border-radius: 5em;
+    padding: 0%;
+  }
+
+
+/* hieronder is de 2e webpagina*/
+.kop-1 {
+    border-radius: 1em;
+    background-color: #080b0d;
+    margin: 0 4em;
+  }
+
+  .foto-kop {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 2em;
+  }
+
+/* hieronder is de 3e webpagina*/
+
+.knop-2 {
+    border-radius: 1em;
+    background-color: #0c4022;
+    margin: 0 4em;
+  }
+
+/* hieronder is de 4e webpagina*/
+
+.kop-2 {
+    border-radius: 1em;
+    background-color: #0c4022;
+    margin: 0 2em;
+  }
+
+  .container-2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #0c4022;
+    margin: 1em 0;
+    padding: 1.25em 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 1em;
+  }
+  
+  .container-2 img {
+    width: 6em;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    margin-bottom: 2%;
+  }
+
+  .container-2 p {
+    padding: 0;
+    margin: 3% 0;
+  }
