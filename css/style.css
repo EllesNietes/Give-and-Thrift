@@ -4,6 +4,7 @@ header {
   background-color: #0c4022;
   border-bottom-left-radius: 1em;
   border-bottom-right-radius: 1em;
+  padding: 1% 0
 }
 
 header img {
@@ -32,52 +33,44 @@ header img {
 
 
 nav {
-    z-index: 2;
-    background-color: #080b0d;
-    padding: 0%;   
-    position: fixed; 
-    bottom: 0%;
-    width: 100%; 
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
-    display: block;
+  z-index: 2;
+  background-color: #080b0d; 
+  position: fixed; 
+  bottom: 0%;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
 }
 
 ul {
-    display: flex;
-    flex-direction: row;
-    padding-left: 0;
+  display: flex;
+  padding-left: 0;
 }
 
 ul li {
-    display: flex;
-    flex-direction: row;
-    max-width: fit-content;
-    text-align: -webkit-center;
-    }
+  display: flex;
+  text-align: -webkit-center;
+}
 
 ul img {
-    display: flex;
-    flex-direction: row;
-    max-width: 45%;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0;
+  display: flex;
+  flex-direction: row;
+  max-width: 45%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 * {
-    color: #dfe9f2;
-  }
+  color: #dfe9f2;
+}
 
 body {
-    background: #177351;
-    margin: 0;
-    padding: 0;
-    display: block;
+  background: #177351;
+  margin: 0;
 }
 
 h1 {
@@ -89,115 +82,101 @@ h1 {
 }
 
 h2 {
-    text-align: center;
-    padding: 2% 0;
-    font-family: 'Lobster', sans-serif;
-    font-weight: 100 ;
+  text-align: center;
+  padding: 2% 0;
+  font-family: 'Lobster', sans-serif;
+  font-weight: 100 ;
 }
 
 
 h3 {
-    text-align: center;
-    padding: 1% 0;
-    margin: 1%;
-    font-family: 'Lora', serif;
+  text-align: center;
+  padding: 1% 0;
+  margin: 1%;
+  font-family: 'Lora', serif;
 }
 
 h4 {
-    text-align: center;
+  text-align: center;
 }
 
 .rechthoek h3 {
-    padding: 0;
+  padding: 0;
 }
 
 p {
-    padding: 0% 10%;
-    text-align: center;
-    margin-bottom: 8%;
-    margin-top: 6%;
-    font-family:'math', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0% 10%;
+  text-align: center;
+  margin-bottom: 8%;
+  margin-top: 6%;
+  font-family:'math', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
 /* hieronder is de 1e webpagina*/
 main {
-    margin-bottom: 30%;
+  margin-bottom: 30%;
 }
 
 
 img.rondje {
-    width: 15%;
-    z-index: 1;
+  width: 15%;
+  z-index: 1;
 }
 
 .container-1 {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1.25em 0;
-    margin: auto;
-    flex-direction: row;
-    width: 70%;
-  }
+  padding: 1.25em 0;
+  margin: auto;
+  width: 70%;
+}
 
-  .knop {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
+.knop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .rechthoek {
-    display: flex;
-    flex-direction: row;
-    border-radius: 1em;
-    background-color: #61a5b5;
-    justify-content: center;
-    padding: 4% 25%;
-    margin: 9% -1em;
-    width: 5em;
-    border: dashed;
-  }
-
-  .rondje {
-    display: flex;
-    flex-direction: row;
-    background-color: #61a5b5;
-    justify-content: center;
-    border-radius: 5em;
-    padding: 4%;
-    margin: 0 -1em;
-    border: dashed;
-  }
-
-.foto-kop {
   border-radius: 1em;
+  background-color: #61a5b5;
+  padding: 4% 25%;
+  margin: 9% -1em;
+  width: 5em;
+  border: dashed;
 }
+
+.rondje {
+  background-color: #61a5b5;
+  border-radius: 5em;
+  padding: 4%;
+  margin: 0 -1em;
+  border: dashed;
+}
+
 
 /* hieronder is de 2e webpagina*/
 .kop-1 {
-    border-radius: 1em;
-    background-color: #080b0d;
-    margin: 0 4em;
-  }
+  border-radius: 1em;
+  background-color: #080b0d;
+  margin: 0 4em;
+}
 
-  .foto-kop {
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    margin-top: 2em;
-  }
+.foto-kop { /* en 3e*/
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2em;
+  border-radius: 1em;
+}
 
-  .knop-2 p {
-    margin: 0 2em;
-    padding: 2% 0;
-    border-radius: 1em;
-    background-color: #61a5b5;
-    border: dashed;
-  }
+.knop-2 p {
+  margin: 0 2em;
+  padding: 2% 0;
+  border-radius: 1em;
+  background-color: #61a5b5;
+  border: dashed;
+}
 
 /* hieronder is de 3e webpagina*/
 
@@ -215,47 +194,42 @@ img.rondje {
 /* hieronder is de 4e webpagina*/
 
 
-  .container-2 {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 0 1%;
-    margin-bottom: 3em;
-  }
+.container-2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 1%;
+  margin-bottom: 3em;
+}
   
-  .card {
-    background-color: #61a5b5;
-    margin: 1em 0;
-    padding: 1.25em 0.5em;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border-radius: 1em;
-    border: dashed;
-  }
+.card {
+  background-color: #61a5b5;
+  margin: 1em 0;
+  padding: 1.25em 0.5em;
+  text-align: center;
+  border-radius: 1em;
+  border: dashed;
+}
   
-  .container-2 img {
-    width: 7em;
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: contain;
-    margin-bottom: 2%;
-  }
+.container-2 img {
+  width: 7em;
+  margin-bottom: 2%;
+}
 
-  .container-2 p {
-    padding: 0;
-    margin: 3% 0;
-    font-size: small;
-  }
+.container-2 p {
+  padding: 0;
+  margin: 3% 0;
+  font-size: small;
+}
 
-  .kop-2 {
-    border-radius: 1em;
-    background-color: #61a5b5;
-    margin: 1em 1em;
-    border: dashed;
-  }
+.kop-2 {
+  border-radius: 1em;
+  background-color: #61a5b5;
+  margin: 1em 1em;
+  border: dashed;
+}
 
-  .kop-2 p {
-    padding: 1em 0;
-    margin: 1% 0;
-  }
+.kop-2 p {
+  padding: 1em 0;
+  margin: 1% 0;
+}
