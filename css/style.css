@@ -1,20 +1,38 @@
 
 header {
-    width: 100%;
-    background-color: #0c4022;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
-    padding: 1%;
+  width: 100%;
+  background-color: #0c4022;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
 }
 
 header img {
-    max-width: 60%;
-    margin-left: 23%;
+  max-width: 60%;
+  margin-left: 27%;
+}
+
+@font-face {
+  font-family: 'Lobster', sans-serif;
+  src: url(/fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Lora', serif;
+  src: url(/fonts/Lora-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'Lora', serif;
+  src: url(/fonts/Lora-Italic-VariableFont_wght.ttf);
+}
+
+*{
+  font-family: 'Lora-VariableFont', Times New Roman,serif; 
 }
 
 
 nav {
-    z-index: 1;
+    z-index: 2;
     background-color: #080b0d;
     padding: 0%;   
     position: fixed; 
@@ -46,13 +64,12 @@ ul img {
     justify-content: space-between;
     margin: 0;
 }
+
 a {
     text-decoration: none;
 }
 
-
-
-*{
+* {
     color: #dfe9f2;
   }
 
@@ -63,15 +80,27 @@ body {
     display: block;
 }
 
+h1 {
+  text-align: center;
+  padding: 2% 0;
+  font-family: 'Lobster', sans-serif;
+  font-weight: 100 ;
+  margin-bottom: 0;
+}
+
 h2 {
     text-align: center;
     padding: 2% 0;
+    font-family: 'Lobster', sans-serif;
+    font-weight: 100 ;
 }
+
 
 h3 {
     text-align: center;
     padding: 1% 0;
     margin: 1%;
+    font-family: 'Lora', serif;
 }
 
 h4 {
@@ -87,6 +116,7 @@ p {
     text-align: center;
     margin-bottom: 8%;
     margin-top: 6%;
+    font-family:'math', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
@@ -96,8 +126,9 @@ main {
 }
 
 
-.rondje img {
+img.rondje {
     width: 15%;
+    z-index: 1;
 }
 
 .container-1 {
@@ -121,20 +152,28 @@ main {
     display: flex;
     flex-direction: row;
     border-radius: 1em;
-    background-color: #0c4022;
+    background-color: #61a5b5;
     justify-content: center;
-    margin: 2em;
+    padding: 4% 25%;
+    margin: 9% -1em;
+    width: 5em;
+    border: dashed;
   }
 
   .rondje {
     display: flex;
     flex-direction: row;
-    background-color: #0c4022;
+    background-color: #61a5b5;
     justify-content: center;
     border-radius: 5em;
-    padding: 0%;
+    padding: 4%;
+    margin: 0 -1em;
+    border: dashed;
   }
 
+.foto-kop {
+  border-radius: 1em;
+}
 
 /* hieronder is de 2e webpagina*/
 .kop-1 {
@@ -152,17 +191,26 @@ main {
     margin-top: 2em;
   }
 
-/* hieronder is de 3e webpagina*/
-
-
-  
-
   .knop-2 p {
     margin: 0 2em;
     padding: 2% 0;
     border-radius: 1em;
-    background-color: #0c4022;
+    background-color: #61a5b5;
+    border: dashed;
   }
+
+/* hieronder is de 3e webpagina*/
+
+
+.knop-3 p {
+  margin: 0 2em;
+  padding: 2% 0;
+  border-radius: 1em;
+  background-color: #61a5b5;
+  border: dashed;
+}
+
+
 
 /* hieronder is de 4e webpagina*/
 
@@ -176,13 +224,14 @@ main {
   }
   
   .card {
-    background-color: #0c4022;
+    background-color: #61a5b5;
     margin: 1em 0;
     padding: 1.25em 0.5em;
     display: flex;
     flex-direction: column;
     text-align: center;
     border-radius: 1em;
+    border: dashed;
   }
   
   .container-2 img {
@@ -201,12 +250,12 @@ main {
 
   .kop-2 {
     border-radius: 1em;
-    background-color: #0c4022;
+    background-color: #61a5b5;
     margin: 1em 1em;
-    padding: ;
+    border: dashed;
   }
 
   .kop-2 p {
-    padding: 1em 1em;
-    margin: 2em 0;
+    padding: 1em 0;
+    margin: 1% 0;
   }
