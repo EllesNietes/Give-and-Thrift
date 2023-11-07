@@ -75,30 +75,34 @@ body {
 
 h1 {
   text-align: center;
-  padding: 2% 0;
   font-family: 'Lobster', serif, sans-serif;
-  
   font-weight: 100 ;
-  margin-bottom: 0;
+  margin-bottom: 3%;
+  font-size: xx-large;
 }
 
 h2 {
   text-align: center;
-  padding: 2% 0;
-  font-family: 'Lobster', serif, sans-serif;
-  font-weight: 100 ;
+  padding: 1% 0;
+  margin: 1%;
+  font-family: 'Lora', serif;
+  font-size: 120%;
 }
 
 
 h3 {
   text-align: center;
-  padding: 1% 0;
-  margin: 1%;
+  padding: 1% 0.5%;
   font-family: 'Lora', serif;
-}
+  border-radius: 1em;
+  background-color: #080b0d;
+  margin: 0.5% 3em;
+  }
+
 
 h4 {
   text-align: center;
+  font-size: 110%;
 }
 
 .rechthoek h3 {
@@ -171,7 +175,7 @@ img.rondje {
   border-radius: 1em;
 }
 
-.knop-2 p {
+.knop-2 p { /*en 3e*/
   margin: 0 2em;
   padding: 2% 0;
   border-radius: 1em;
@@ -182,13 +186,7 @@ img.rondje {
 /* hieronder is de 3e webpagina*/
 
 
-.knop-3 p {
-  margin: 0 2em;
-  padding: 2% 0;
-  border-radius: 1em;
-  background-color: #61a5b5;
-  border: dashed;
-}
+
 
 
 
@@ -223,14 +221,17 @@ img.rondje {
   font-size: small;
 }
 
-.kop-2 {
+li .kop-2 p {
   border-radius: 1em;
   background-color: #61a5b5;
-  margin: 1em 1em;
   border: dashed;
+  padding: 1em 2%;
+  margin: 4% 0%;
+  width: 20em;
 }
 
-.kop-2 p {
-  padding: 1em 0;
-  margin: 1% 0;
+.plekken {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
