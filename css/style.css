@@ -28,9 +28,9 @@ header img {
 }
 
 *{
-  font-family: 'Lora-VariableFont', Times New Roman,serif; 
+  font-family: 'Lora-VariableFont', 'Times New Roman', serif; 
+  color: #dfe9f2;
 }
-
 
 nav {
   z-index: 2;
@@ -41,14 +41,18 @@ nav {
   border-top-right-radius: 1em;
 }
 
+nav ul li.actief {
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
 ul {
   display: flex;
-  padding-left: 0;
+  padding: 0;
+  margin-bottom: 0.5em;
 }
 
 ul li {
-  display: flex;
-  text-align: -webkit-center;
+  list-style-type: none;
 }
 
 ul img {
@@ -58,15 +62,15 @@ ul img {
   align-items: center;
   justify-content: space-between;
   margin: 0;
+  margin-bottom: 0.5em;
 }
 
 a {
   text-decoration: none;
+  display: flex;
+  justify-content: center;
 }
 
-* {
-  color: #dfe9f2;
-}
 
 body {
   background: #177351;
@@ -90,7 +94,6 @@ h2 {
   font-size: 120%;
 }
 
-
 h3 {
   text-align: center;
   padding: 1% 0.5%;
@@ -99,7 +102,6 @@ h3 {
   background-color: #080b0d;
   margin: 0.5% 3em;
   }
-
 
 h4 {
   text-align: center;
@@ -124,7 +126,6 @@ main {
   margin-bottom: 25%;
 }
 
-
 img.rondje {
   width: 18%;
   z-index: 1;
@@ -138,9 +139,7 @@ img.rondje {
 }
 
 .knop {
-  display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .rechthoek {
@@ -165,39 +164,39 @@ img.rondje {
 }
 
 
-/* hieronder is de 2e webpagina*/
-.kop-1 {
+/* hieronder is de 2e en 3e webpagina*/
+.kop-1 { /* alleen 2e */
   border-radius: 1em;
   background-color: #080b0d;
   margin: 0 4em;
 }
 
-.foto-kop { /* en 3e*/
+.foto-kop { 
   width: 80%;
   display: flex;
-  justify-content: center;
   margin: auto;
   margin-top: 2em;
   border-radius: 1em;
 }
 
-.knop-2 p { /*en 3e*/
+.knop-2 p { 
   margin: 0 2em;
-  padding: 2% 0;
+  padding: 2% 16%;
   border-radius: 1em;
   background-color: #61a5b5;
   border: dashed;
 }
 
-/* hieronder is de 3e webpagina*/
-
-
-
-
+.groot { /*alleen 3e */
+  font-size: larger;
+}
 
 
 /* hieronder is de 4e webpagina*/
 
+h5 {
+  margin: 5% 0;
+}
 
 .container-2 {
   display: flex;
@@ -215,6 +214,10 @@ img.rondje {
   border-radius: 1em;
   border: dashed;
 }
+
+.card a {
+  display: block;
+}
   
 .container-2 img {
   width: 7em;
@@ -231,7 +234,7 @@ li .kop-2 p {
   border-radius: 1em;
   background-color: #61a5b5;
   border: dashed;
-  padding: 1em 2%;
+  padding: 1em 11%;
   margin: 4% 0%;
   width: 20em;
 }
