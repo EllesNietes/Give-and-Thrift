@@ -131,9 +131,10 @@ img.rondje {
 }
 
 .container-1 {
-  padding: 1.25em 0;
+  padding: 0 0;
   margin: auto;
   width: 70%;
+  margin-bottom: 1.25em;
 }
 
 .knop {
