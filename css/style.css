@@ -27,7 +27,7 @@ header img {
   src: url(/fonts/Lora-Italic-VariableFont_wght.ttf);
 }
 
-*{
+* {
   font-family: 'Lora-VariableFont', 'Times New Roman', serif; 
   color: #dfe9f2;
 }
@@ -70,7 +70,6 @@ a {
   display: flex;
   justify-content: center;
 }
-
 
 body {
   background: #177351;
